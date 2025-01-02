@@ -1,0 +1,280 @@
+body
+{
+font-size: 14px;
+line-height: 20px;
+font-family: Arial,sans-serif;
+color: var(--__N4QdCheV6mGo,#0f1111);
+
+}
+*
+{
+    box-sizing: border-box;
+}
+.navbar1
+{
+    background-color:#232F3E;
+    width:100%;
+    font-size: 14px;
+    
+}
+.navbar1 :any-link
+{
+    color:white;
+    text-decoration: none;
+}
+.link1:hover
+{
+    border:1px solid white;
+
+}
+.navbar-brand img {
+    max-height: 40px;
+}
+.banner {
+    background-image: url('./img/home/Winter_Furnishing_Store_-_Pc_Header.gif');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.banner h1 {
+    font-size: 2rem;
+}
+.category-list {
+    font-size: 0.9rem;
+}
+.trends-section h4 {
+    margin-top: 20px;
+}
+.trends-section .card img {
+    object-fit: cover;
+    height: 150px;
+}
+.header {
+    background-color:rgb(19, 25, 33);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.header :any-link
+{
+    color:white;
+}
+.logo:hover 
+{
+    border:1px solid white;
+}
+.header .search-bar {
+    flex: 1;
+    display: flex;
+    margin: 2px;
+    max-width: 800px;
+}
+.header .search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+}
+.header .search-bar button {
+    padding: 8px;
+    border: none;
+    background-color: #febd69;
+    border-radius: 4px 0px 0px 4px;
+    cursor: pointer;
+}
+.header .links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.header .links a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+/*@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header .search-bar {
+        margin: 10px 0;
+    }
+    .header .links {
+        justify-content: center;
+        gap: 5px;
+    }
+}*/
+footer
+{
+    background-color: #232F3E;
+}
+    .footer1
+    {
+    background-color:#232F3E;
+    color:white;
+    }
+    .footer1:any-link
+    {
+        color:white;
+    }
+   
+    .footer2:any-link
+    {
+        color: white;
+    }
+    .footer3
+    {
+        background-color: #131921;
+    }
+    .footer3:any-link
+    {
+        color:white;
+    }
+    .footer4
+    {
+        background-color: #131921;
+    }
+    .footer4:any-link
+    {
+        color:white;
+    }
+    .footer5
+    {
+        background-color: #131921;
+        color:white;
+        text-align: center;
+    }
+.offer-section {
+    margin: 20px 0;
+}
+.offer-card {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.offer-card img {
+    height: 100px;
+    object-fit: cover;
+}
+.offer-card .card-body {
+    padding: 15px;
+}
+.offer-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.offer-link {
+    color: #007185;
+    font-weight: bold;
+    text-decoration: none;
+}
+#corouselExample
+{
+border:1px solid black;
+background-color: white;
+}
+#authportal-center-section {
+    width: 700px;
+    margin: auto;
+}
+.a-box .a-box-inner
+{
+border-radius: 8px;
+position: relative;
+padding: 14px 18px;
+}
+.a-padding-extra-large {
+    padding: 20px 26px !important;
+}
+.a-section {
+    margin-bottom: 22px;
+}
+.a-form-label
+{
+font-weight: 700;
+}
+.a-divider .a-divider-break
+{
+    margin-bottom: 14px;
+    line-height: 0;
+    padding-top: 1px;
+    position: relative;
+    text-align: center;
+    top: 2px;
+}
+.side-menu {
+    width: 200px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ddd;
+    padding: 15px;
+    height: 10vh;
+    position: fixed;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    margin-bottom: 15px;
+}
+
+.side-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+
+.side-menu ul li a:hover {
+    color: #007bff;
+}
+
+.content {
+    margin-left: 150px;
+    padding: 20px;
+    width: 100%;
+    margin-top: -40px;
+}
+
+.product-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    color: #28a745;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.navbar3 a
+{
+color:black;
+}
