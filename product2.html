@@ -9,21 +9,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="header">
-        <div><img src="./image/amazon_logo.png"width="100px"class="logo"></div>
+    <div class="header container-fluid">
+        <div><a href="./index.html"><img src="./image/amazon_logo.png"width="100px"class="logo"></a></div>
         <div class="search-bar">
             <div class="dropdown">
                 <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   All
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                  <button class="dropdown-item" type="button">All Categories</button>
-                  <button class="dropdown-item" type="button">Alexa Skills</button>
-                  <button class="dropdown-item" type="button">Amazon Devices</button>
-                  <button class="dropdown-item" type="button">Amazon Fresh</button>
-                  <button class="dropdown-item" type="button">Amazon Fresh Meat</button>
-                  <button class="dropdown-item" type="button">Appliances</button>
-                  <button class="dropdown-item" type="button">App & Games</button>
+                  <a class="dropdown-item" href="#">All Categories</a>
+                  <a class="dropdown-item" href="#">Alexa Skills</a>
+                  <a class="dropdown-item" href="#">Amazon Devices</a>
+                  <a class="dropdown-item" href="#">Amazon Fresh</a>
+                  <a class="dropdown-item" href="#">Amazon Fresh Meat</a>
+                  <a class="dropdown-item" href="#">Appliances</a>
+                  <a class="dropdown-item" href="#">App & Games</a>
                 </div>
               </div>
             <input type="text" placeholder="Search Amazon.in">
@@ -31,10 +31,10 @@
         </div>
         <div class="links">
             <div class="dropdown">
-                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <img src="./image/us_flag.png"height="25px">EN
                 </button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
                   <button class="dropdown-item" type="button">All Categories</button>
                   <button class="dropdown-item" type="button">Alexa Skills</button>
                   <button class="dropdown-item" type="button">Amazon Devices</button>
@@ -45,33 +45,65 @@
                 </div>
               </div>
               <div class="dropdown">
-                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-Account & Lists</button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+<b>Account & Lists</b></button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
                   <a class="dropdown-item" href="#"style="color:black;">Action</a>
                   <a class="dropdown-item" href="#">Another action</a>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
               </div>
-              <div><a href="#"><p>Return</p><h5 style="margin-top: -20px;">& orders</h5></a></div>
+              <div><a href="./returnandorders.html"><p>Return</p><h5 style="margin-top: -20px;">& orders</h5></a></div>
             <a href="#"><img src="./image/cart_icon.png"alt="Cart"width="40px"></a>
             <a href="#"style="font-weight:bold;margin-left:-20px;margin-top:20px;">Cart</a>
         </div>
     </div>
-    <div class="navbar1">
-    <div class="link1"><a href="#"><img src="./image/menu_icon.png"width="20px">ALL</a></div>
-    <div class="link1"><a href="#">Fresh</a></div>
-    <div class="link1"><a href="#">MX Player</a></div>
-    <div class="link1"><a href="#">Sell</a></div>
-    <div class="link1"><a href="#">Best Sellers</a></div>
-    <div class="link1"><a href="#">Today's Deals</a></div>
-    <div class="link1"><a href="#">Mobiles</a></div>
-    <div class="link1"><a href="#">Customer Service</a></div>
-    <div class="link1"><a href="#">Prime</a></div>
-    <div class="link1"><a href="#">Electronics</a></div>
-    <div class="link1"><a href="#">Home & Kitchen</a></div>
-    <div class="link1"><a href="#">Amazon Pay</a></div>
-    <div class="link1"><img src="./image/400x39-SWM-NP._CB538561408_.jpg"></div>
+    <div class="navbar1 row container-fluid">
+    <div class="link1 col"><a href="#"data-toggle="collapse"href="#collapse"role="button"aria-expanded="false"aria-controls="collapse">
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <div class="row">
+                <div class="col">
+                    <div><img src="#"><b>Hello, Sign In</b></div>
+                    <div><h5>Trending</h5></div>
+                    <div><a href="#">Best Sellers</a></div>
+                    <div><a href="#">New Releases</a></div>
+                    <div><a href="#">Movers & Shakers</a></div>
+                    <hr class="hr">
+                    <div><h5>Digital Content and Devices</h5></div>
+                    <div><a href="#">Echo & Alexa      ></a></div>
+                    <div><a href="#">Fire TV      ></a></div>
+                    <div><a href="#">Kindle E-Readers & eBooks    ></a></div>
+                    <div><a href="#">Audible Audiobooks      ></a></div>
+                    <div><a href="#">Amazon Prime Video      ></a></div>
+                    <div><a href="#">Amazon Prime Music    ></a></div>
+                    <hr class="hr">
+                    <div><h5>Shop By Category</h5></div>
+                    <div><a href="#">Mobile, Computers      ></a></div>
+                    <div><a href="#">TV,Appliances,Electronics      ></a></div>
+                    <div><a href="#">Men's Fashion     ></a></div>
+                    <div><a href="#">Women's Fashion     ></a></div>
+                    <hr class="hr">
+                    <div><h5>Help & Settings</h5></div>
+                    <div><a href="#">Your Account      ></a></div>
+                    <div><a href="#">Customer Services</a></div>
+                    <div><a href="#">Sign In</a></div>
+                </div>
+              </div>
+            </div>
+          </div><img src="./image/menu_icon.png"width="20px">ALL</a></div>
+    <div class="link1 col"><a href="#">Fresh</a></div>
+    <div class="link1 col"><a href="#">MX Player</a></div>
+    <div class="link1 col"><a href="./sell.html">Sell</a></div>
+    <div class="link1 col"><a href="#">Best Sellers</a></div>
+    <div class="link1 col"><a href="#">Today's Deals</a></div>
+    <div class="link1 col"><a href="#">Mobiles</a></div>
+    <div class="link1 col"><a href="#">Customer Service</a></div>
+    <div class="link1 col"><a href="#">Prime</a></div>
+    <div class="link1 col"><a href="#">Electronics</a></div>
+    <div class="link1 col"><a href="#">Home & Kitchen</a></div>
+    <div class="link1 col"><a href="#">Amazon Pay</a></div>
+    <div class="link1 col"><img src="./image/400x39-SWM-NP._CB538561408_.jpg"class=""></div>
     </div>
     <div class="container-fluid">
 <h2 style="color:#E47911;">Buy Home Furnishing Products Online at Amazon India</h2>

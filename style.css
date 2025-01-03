@@ -278,3 +278,59 @@ font-weight: 700;
 {
 color:black;
 }
+#dropdownMenuButton2
+{
+    color:white;
+    text-decoration: none;
+}
+#dropdownMenu1
+{
+    color:white;
+    text-decoration: white;
+}
+.sell-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+}
+.sell-section h2 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sell-step {
+    text-align: center;
+    padding: 20px;
+}
+.sell-step img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #007bff;
+    padding: 10px;
+}
+.sell-step h5 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.sell-step p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.start-selling-btn {
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+}
+.start-selling-btn a {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ff9900;
+    text-decoration: none;
+}
+.start-selling-btn a:hover {
+    background-color: #cc7a00;
+}
