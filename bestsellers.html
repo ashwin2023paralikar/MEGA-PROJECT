@@ -12,43 +12,74 @@
      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="menu1 d-flex">
-        <div>Best Sellers</div>
-        <div>Hot New Releases</div>
-        <div>Movers and Shakers</div>
-        <div>Most Wished For</div>
-        <div>Most Gifted</div>
+    <div class="nav navbar justify-content-evenly navbar2"style="background-color:#232F3E;">
+        <div>
+        <a class="navbrand"><img src="./image/amazon_logo.png"style="width:100px;"></a>
     </div>
-    <div><h1>Amazon Bestsellers</h1></div>
-    <div>Our most popular products based on sales. Updated frequently.</div>
-    <div class="row">
-        <div class="col-md-3">
-            <div class="d-block border">
-                <p>Any Department</p>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
-                <div><a href="#">Amazon Launchpad</a></div>
+    <div class="d-flex searchbar">
+        <div class="dropdown">
+            <button class="btn dropdown-toggle dropdown1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              All
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#"></a>
+              <a class="dropdown-item" href="#"></a>
+              <a class="dropdown-item" href="#"></a>
             </div>
+          </div class="d-flex">
+          <div><input type="text"style="width:800px;"class="search1"><button class="btn btnsearch"><img src="./image/search_icon.png"width="32px"style="margin-top:-7px;"></button></div>
+    </div>
+<div>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="./image/us_flag.png"style="width:30px;">EN
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">HI-HINDI</a>
+          <a class="dropdown-item" href="#">TA</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">MARATHI-MR</a>
         </div>
+      </li>
+</div>
+    <div>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <b>Accounts & Lists</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Amazon</a>
+              <a class="dropdown-item" href="#">Alexa Devices</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Amazon Fashion</a>
+            </div>
+          </li>
+    </div>
+    <div class="nav-item"><a href="#"><p>Returns</p>
+    <b>& Orders</b>
+    </a></div>
+    <div class="nav-item d-flex">
+        <a href="#"><img src="./image/cart_icon.png"width="35px;"><b>Cart</b></a>
+    </div>
+</div>
+    <nav class="nav navbar1 container-fluid justify-content-evenly"style="background-color:#232F3E;gap:5px;color:white;">
+        <a href="#"><img src="./image/menu_icon.png"style="width:30px;">ALL</a>
+        <a href="#">MX Player</a>
+        <a href="#">Sell</a>
+        <a href="#">Best Sellers</a>
+        <a href="#">Mobiles</a>
+        <a href="#">Today's Deals</a>
+        <a href="#">Prime</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Electronics</a>
+        <a href="#">Home & Kitchen</a>
+        <a href="#">Amazon Pay</a>
+        <a href="#">New Releases</a>
+        <a href="#">Fashion</a>
+        <a href="#">Computers</a>
+        <a href="#">Cart & Mobile</a>
+        <a href="#">Books</a>
+    </nav>
         <div class="container my-5">
             <h2 class="text-center mb-4">Product Carousel</h2>
             <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">

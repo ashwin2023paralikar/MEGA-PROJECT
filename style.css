@@ -4,45 +4,89 @@ font-size: 14px;
 line-height: 20px;
 font-family: Arial,sans-serif;
 color: var(--__N4QdCheV6mGo,#0f1111);
-
+background-color: #E3E6E6;
 }
 *
 {
     box-sizing: border-box;
 }
-.navbar1
-{
-    background-color:#232F3E;
-    width:100%;
-    font-size: 14px;
-    
-}
-.navbar1 :any-link
+.navbar1 a
 {
     color:white;
     text-decoration: none;
 }
-.link1:hover
+.navbar1 a:hover
+{
+    border: 1px solid white;
+}
+.navbar2 a
+{
+    color:white;
+}
+.navbar2 a:hover
 {
     border:1px solid white;
+}
+.searchbar:hover
+{
+    border:1px solid #febd69;
+}
+.dropdown1
+{
+    border-radius: 4cm,0px,0px,0px;
+    height:35px;
+    background-color: #E6E6E6;
+    font-size: 10px;
+    
+}
+.search1
+{
+border-radius: 0px,0px,0px,0px;
+height:35px;
+}
+.btnsearch
+{
+border-radius: 0px,0px,0px,0px;
+background-color: #febd69;
+height:35px;
+}
+.footer1
+{
+background-color: #232F3E;
+}
+.footer1 a
+{
+color:white;
+text-decoration: none;
+}
+.footer2
+{
+background-color:#232F3E;
+}
+.footer2 a
+{
+color:white;
+text-decoration: none;
+}
+.footer3
+{
+background-color: #131A22;
+font-size: 10px;
 
 }
-.navbar-brand img {
-    max-height: 40px;
+.footer3 a{
+text-decoration: none;
+color:white;
 }
-.banner {
-    background-image: url('./img/home/Winter_Furnishing_Store_-_Pc_Header.gif');
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+.footer4
+{
+background-color: #131A22;
+font-size: 10px;
+
 }
-.banner h1 {
-    font-size: 2rem;
+.footer4 a{
+text-decoration: none;
+color:white;
 }
 .category-list {
     font-size: 0.9rem;
@@ -54,105 +98,7 @@ color: var(--__N4QdCheV6mGo,#0f1111);
     object-fit: cover;
     height: 150px;
 }
-.header {
-    background-color:rgb(19, 25, 33);
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-}
-.header :any-link
-{
-    color:white;
-}
-.logo:hover 
-{
-    border:1px solid white;
-}
-.header .search-bar {
-    flex: 1;
-    display: flex;
-    margin: 2px;
-    max-width: 800px;
-}
-.header .search-bar input {
-    flex: 1;
-    padding: 8px;
-    border: none;
-    border-radius: 0px 0px 0px 0px;
-}
-.header .search-bar button {
-    padding: 8px;
-    border: none;
-    background-color: #febd69;
-    border-radius: 4px 0px 0px 4px;
-    cursor: pointer;
-}
-.header .links {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.header .links a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-}
-/*@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        text-align: center;
-    }
-    .header .search-bar {
-        margin: 10px 0;
-    }
-    .header .links {
-        justify-content: center;
-        gap: 5px;
-    }
-}*/
-footer
-{
-    background-color: #232F3E;
-}
-    .footer1
-    {
-    background-color:#232F3E;
-    color:white;
-    }
-    .footer1:any-link
-    {
-        color:white;
-    }
-   
-    .footer2:any-link
-    {
-        color: white;
-    }
-    .footer3
-    {
-        background-color: #131921;
-    }
-    .footer3:any-link
-    {
-        color:white;
-    }
-    .footer4
-    {
-        background-color: #131921;
-    }
-    .footer4:any-link
-    {
-        color:white;
-    }
-    .footer5
-    {
-        background-color: #131921;
-        color:white;
-        text-align: center;
-    }
+
 .offer-section {
     margin: 20px 0;
 }
@@ -333,4 +279,11 @@ color:black;
 }
 .start-selling-btn a:hover {
     background-color: #cc7a00;
+}
+.list-group-item
+{
+color:black;
+}
+.list-group-item a{
+    color:black;
 }
