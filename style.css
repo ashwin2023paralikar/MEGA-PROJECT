@@ -287,3 +287,8 @@ color:black;
 .list-group-item a{
     color:black;
 }
+.productgallery a
+{
+    text-decoration: none;
+    color:black;
+}
